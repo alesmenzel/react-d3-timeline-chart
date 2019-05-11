@@ -1,0 +1,18 @@
+.c-tlch-axis-x-tick {
+  &__line {
+    stroke: #FFFFFF;
+      stroke-width: 2;
+  }
+
+  &__label-title {
+    fill: #FFFFFF;
+    font-size: 14px;
+    text-anchor: end;
+  }
+
+  &__label-subtitle {
+    fill: #FFFFFF;
+    font-size: 8px;
+    text-anchor: end;
+  }
+}

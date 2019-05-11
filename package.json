@@ -1,0 +1,37 @@
+{
+  "name": "d3-timeline-chart",
+  "version": "1.0.0",
+  "description": "D3 chart in react\n - Responsive svg chart example\n - Optimization example",
+  "keywords": [
+    "react",
+    "d3-chart",
+    "hooks",
+    "multiple-providers",
+    "optimization"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@alesmenzel/number-format": "1.0.0",
+    "classnames": "2.2.6",
+    "d3-scale": "3.0.0",
+    "d3-shape": "1.3.5",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "2.1.8"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

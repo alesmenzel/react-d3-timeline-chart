@@ -1,0 +1,35 @@
+.c-tlch-line-start {
+  cursor: pointer;
+
+  &--image &__line {
+    stroke: #da8c4a,
+  }
+  &--video &__line {
+    stroke: #8539c4,
+  }
+  &--carousel &__line {
+    stroke: #328abc,
+  }
+
+  &__label {
+    transition: transform 0.2s cubic-bezier(0.4, 0.98, 0.32, 1.66);
+  }
+
+  &__label-background {
+    stroke-width: 2;
+    stroke-linejoin: round;
+  }
+
+  &--image &__label-background {
+    fill: #da8c4a;
+    stroke: #f3a766;
+  }
+  &--video &__label-background {
+    fill: #8539c4;
+    stroke: #9242d4;
+  }
+  &--carousel &__label-background {
+    fill: #328abc;
+    stroke: #3a97cc;
+  }
+}

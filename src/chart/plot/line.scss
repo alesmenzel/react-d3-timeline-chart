@@ -1,0 +1,23 @@
+.c-tlch-line {
+  opacity: 0.5;
+  transition: opacity 0.15s ease-in-out;
+  
+  &--active {
+    opacity: 1;
+    pointer-events: none;
+  }
+  
+  &__path {
+    fill: none;
+  }
+
+  &--image &__path {
+    stroke: #da8c4a,
+  }
+  &--video &__path {
+    stroke: #8539c4,
+  }
+  &--carousel &__path {
+    stroke: #328abc,
+  }
+}

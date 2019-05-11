@@ -1,0 +1,25 @@
+.c-tlch-line-end {
+  &__dot {
+    fill: #1b252c;
+
+    &--image {
+      stroke: #da8c4a,
+    }
+    &--video {
+      stroke: #8539c4,
+    }
+    &--carousel {
+      stroke: #328abc,
+    }
+    
+    &--active#{&}--image {
+      fill: #f3a766,
+    }
+    &--active#{&}--video {
+      fill: #9242d4,
+    }
+    &--active#{&}--carousel {
+      fill: #3a97cc,
+    }
+  }
+}
